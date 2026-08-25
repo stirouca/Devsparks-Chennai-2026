@@ -128,7 +128,7 @@ This lab uses the same repo you already have open from Lab 1. If you are startin
 
 #### 1a — Open the project in Bob
 
-If not already open from Lab 1, open the `DevSparks-Hyderabad-2026` folder in Bob IDE.
+If not already open from Lab 1, open the `DevSparks-Chennai-2026` folder in Bob IDE.
 
 ![Bob IDE Welcome screen with the DevSparks-Hyderabad-2026 folder open in Explorer](images/image-lab2-01.png)
 

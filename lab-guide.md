@@ -1,5 +1,5 @@
 # IBM Bob: Java Modernization Lab
-## DevSparks Hyderabad 2026
+## DevSparks Chennai 2026
 
 ---
 

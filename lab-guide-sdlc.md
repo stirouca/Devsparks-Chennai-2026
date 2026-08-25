@@ -109,7 +109,7 @@ Verify the install: `drawio-mcp --version`
 
 This lab uses the same repo you already have open from Lab 1. If you are starting fresh:
 
-1. Go to `https://github.com/anuj34822/DevSparks-Hyderabad-2026`
+1. Go to `https://github.com/stirouca/Devsparks-Chennai-2026/`
 2. Clone the repo in your local, and open the folder in Bob IDE
 
 ---

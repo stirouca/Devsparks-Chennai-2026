@@ -179,7 +179,7 @@ You need this to preview the diagrams Bob generates in Step 2.
    ```
    https://github.com/anuj34822/DevSparks-Hyderabad-2026
    ```
-   Click **Code → Download ZIP**. Extract it — you will get a folder named `DevSparks-Hyderabad-2026-main`.
+   Click **Code → Download ZIP**. Extract it — you will get a folder named `DevSparks-Chennai-2026-main`.
 
 ![GitHub repo showing Code → Download ZIP](https://raw.githubusercontent.com/anuj34822/DevSparks-Hyderabad-2026/main/images/image2.png)
 
@@ -187,7 +187,7 @@ You need this to preview the diagrams Bob generates in Step 2.
 
 ![Bob IDE Welcome screen](https://raw.githubusercontent.com/anuj34822/DevSparks-Hyderabad-2026/main/images/image3.png)
 
-3. Navigate to the extracted `DevSparks-Hyderabad-2026-main` folder and click **Open**.
+3. Navigate to the extracted `DevSparks-Chennai-2026-main` folder and click **Open**.
 
 ![Folder picker showing DevSparks-Hyderabad-2026-main selected](https://raw.githubusercontent.com/anuj34822/DevSparks-Hyderabad-2026/main/images/image4.png)
 

@@ -1,4 +1,4 @@
-# IBM Bob: DevSparks Hyderabad 2026
+# IBM Bob: DevSparks Chennai 2026
 ### Two Hands-On Labs with IBM Bob IDE
 
 ---

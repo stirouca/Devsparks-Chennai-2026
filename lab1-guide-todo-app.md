@@ -1,7 +1,5 @@
 # Hands-on Lab: Building a Modern To-Do Application with IBM Bob
 
-## Lab Overview
-
 In this hands-on lab, you will learn how to use **IBM Bob** as an AI-powered development assistant to design, generate, troubleshoot, and enhance a modern web-based To-Do application.
 
 Using natural language prompts, you will interact with Bob to create a complete full-stack application consisting of:
@@ -13,7 +11,19 @@ Using natural language prompts, you will interact with Bob to create a complete 
 
 Throughout the lab, you will explore how Bob can assist with application planning, code generation, debugging, and UI enhancement, significantly accelerating the software development lifecycle.
 
+#### Tech Stack
+
+![Open Folder](images-lab1/img11.png)
+
+#### TODO App
+
+![Enhanced Application UI](images-lab1/img10.png)
+
 ---
+
+# 1. Lab Details
+
+<details><summary>Click for more info</summary>
 
 ## Lab Objectives
 
@@ -31,21 +41,18 @@ By the end of this lab, you will be able to:
 
 </details>
 
----
-
 ## Prerequisites
 
 <details><summary>Click for more info</summary>
 
-
 Before starting the lab, ensure you have the following:
 
-### Software Requirements
+#### Software Requirements
 
 - IBM Bob IDE
 - Python 3.x installed
 
-### Knowledge Requirements
+#### Knowledge Requirements
 
 Basic understanding of:
 
@@ -56,8 +63,6 @@ Basic understanding of:
 
 </details>
 
----
-
 ## Solution Architecture
 
 <details><summary>Click for more info</summary>
@@ -65,34 +70,47 @@ Basic understanding of:
 
 The application created in this lab uses the following architecture:
 
-### Frontend
+#### Frontend
 
 - HTML
 - CSS
 - JavaScript
 
-### Backend
+#### Backend
 
 - Python
 - Flask Framework
 
-### Data Storage
+#### Data Storage
 
 - In-memory database
 
-### Communication
+#### Communication
 
 - REST APIs using JavaScript Fetch API
+</details>
 </details>
 
 ---
 
-# Lab Tasks
+# 2. Lab Tasks
+
+## Task 1: IBM Bob Installation and Onboarding
 
 <details><summary>Click for more info</summary>
 
 
-## Task 1: Open a Workspace in IBM Bob
+1. Install Bob IDE using the [link](./bob-install.md#user-content-1-install-the-ibm-bob-ide). 
+
+2. Register for the IBM Bob Trial license using the [link](./bob-install.md#user-content-2-register-for-an-ibm-bob-trial-licence).
+
+3. Login to the BOB using the [link](./bob-install.md#user-content-3-sign-in-to-the-ibm-bob-ide-using-the-trial-licence). 
+
+</details>
+
+---
+
+## Task 2: Open a Workspace in IBM Bob
 
 <details><summary>Click for more info</summary>
 
@@ -107,7 +125,7 @@ Click **Open Folder**.
 
 ![Open Folder](images-lab1/img12.png)
 
-Select a folder that will be used as your application workspace.
+Select a new folder that will be used as your application workspace.
 
 ![Choose Workspace Folder](images-lab1/img13.png)
 
@@ -135,7 +153,7 @@ Choose **Plan Mode**.
 
 ---
 
-## Task 2: Generate the Application Plan
+## Task 3: Generate the Application Plan
 
 <details><summary>Click for more info</summary>
 
@@ -146,12 +164,15 @@ In this task, Bob helps define the application's architecture and implementation
 Enter the following prompt in the chat window:
 
 ```text
-I want to create a simple To-Do application with a Python Flask backend, an HTML/CSS/JavaScript frontend, and an in-memory database for data storage.
+I want to create a simple To-Do application with Python/Flask backend, HTML/CSS/JavaScript frontend, and an in-memory database for data storage.
 
 The user interface should have a modern, responsive, and visually appealing look and feel.
 
 Please help me with the implementation plan.
 ```
+
+In case, if you are not familar with python you can simply change `Python/Flask` with `Java 17/springboot` in the prompt to create java based application.
+
 
 ![Initial Prompt](images-lab1/img17.png)
 
@@ -197,7 +218,7 @@ Choose an option similar to:
 
 ---
 
-## Task 3: Review and Approve the Plan
+## Task 4: Review and Approve the Plan
 
 <details><summary>Click for more info</summary>
 
@@ -254,7 +275,7 @@ Once complete, Bob creates the application source code and project structure.
 
 ---
 
-## Task 4: Run the Application
+## Task 5: Run the Application
 
 
 <details><summary>Click for more info</summary>
@@ -302,7 +323,7 @@ The application is displayed.
 
 ---
 
-## Task 5: Troubleshoot Application Issues Using Bob
+## Task 6: Troubleshoot Application Issues Using Bob
 
 <details><summary>Click for more info</summary>
 
@@ -350,7 +371,7 @@ Add a few sample tasks to validate the solution.
 
 ---
 
-## Task 6: Enhance the User Interface
+## Task 7: Enhance the User Interface
 
 <details><summary>Click for more info</summary>
 
@@ -390,10 +411,9 @@ The application now includes:
 
 ---
 
-</details>
 
 
-## Key Takeaways
+# 3. Key Takeaways
 
 <details><summary>Click for more info</summary>
 
@@ -409,13 +429,10 @@ During this lab, IBM Bob assisted in:
 - Enhancing the user interface
 - Accelerating end-to-end application development
 
-
-</details>
-
----
-
-# Conclusion
+### Conclusion
 
 In this lab, you successfully used **IBM Bob** to create a modern full-stack To-Do application through natural language interactions. Instead of manually designing, coding, troubleshooting, and enhancing the entire solution, Bob acted as an AI development assistant throughout the process.
 
 This exercise demonstrated how IBM Bob can significantly improve developer productivity by helping with planning, code generation, debugging, and UI improvements, enabling teams to build and modernise applications faster while maintaining development quality and consistency.
+
+</details>

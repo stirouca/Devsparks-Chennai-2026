@@ -4,24 +4,37 @@
 ---
 
 ## Contents
-- [About this Lab](#about-this-lab)
-- [Overview](#overview)
-- [Pre-requisites](#pre-requisites)
-- [Hands-on Lab Steps](#hands-on-lab-steps)
-  - [Step 1 — Import Project into Bob Workspace](#step-1--import-project-into-bob-workspace)
-  - [Step 2 — Reverse Engineering in Agent Mode](#step-2--reverse-engineering-in-agent-mode)
-  - [Step 3 — Explore and Run the Skill](#step-3--explore-and-run-the-skill)
-  - [Step 4 — Explore the Custom Mode and One Rule](#step-4--explore-the-custom-mode-and-one-rule)
-  - [Step 5 — Run Full Modernization with the Custom Mode](#step-5--run-full-modernization-with-the-custom-mode)
-- [What Participants Should Learn](#what-participants-should-learn)
-- [Why Mode, Skill, and Rules — Not Just a Prompt?](#why-mode-skill-and-rules--not-just-a-prompt)
-- [Troubleshooting](#troubleshooting)
+- [IBM Bob: Java Modernization Lab](#ibm-bob-java-modernization-lab)
+  - [DevSparks Chennai 2026](#devsparks-chennai-2026)
+  - [Contents](#contents)
+  - [About this Lab](#about-this-lab)
+  - [Overview](#overview)
+    - [The Application We Are Modernizing](#the-application-we-are-modernizing)
+    - [The Three Bob Assets in This Repo](#the-three-bob-assets-in-this-repo)
+  - [Pre-requisites](#pre-requisites)
+    - [1. IBM Bob IDE](#1-ibm-bob-ide)
+    - [2. Java 17](#2-java-17)
+    - [3. Maven](#3-maven)
+    - [4. PlantUML Plugin](#4-plantuml-plugin)
+  - [Hands-on Lab Steps](#hands-on-lab-steps)
+    - [Step 1 — Import Project into Bob Workspace](#step-1--import-project-into-bob-workspace)
+    - [Step 2 — Reverse Engineering in Agent Mode](#step-2--reverse-engineering-in-agent-mode)
+    - [Step 3 — Explore and Run the Skill](#step-3--explore-and-run-the-skill)
+    - [Step 4 — Explore the Custom Mode and One Rule](#step-4--explore-the-custom-mode-and-one-rule)
+    - [Step 5 — Run Full Modernization with the Custom Mode](#step-5--run-full-modernization-with-the-custom-mode)
+  - [What Participants Should Learn](#what-participants-should-learn)
+  - [Why Mode, Skill, and Rules — Not Just a Prompt?](#why-mode-skill-and-rules--not-just-a-prompt)
+  - [Troubleshooting](#troubleshooting)
+    - [Maven not installed](#maven-not-installed)
+    - [Java not installed](#java-not-installed)
+    - [Build fails during migration](#build-fails-during-migration)
+    - [Bob stops before finishing](#bob-stops-before-finishing)
 
 ---
 
 ## About this Lab
 
-This lab shows you how to use IBM Bob to modernize a legacy Java application by building and using a **reusable Bob system** rather than relying on a premium Java modernization package.
+This lab shows you how to use IBM Bob to modernize a legacy Java application by building and using a **reusable Bob system** .
 
 You will learn how to create and use three Bob building blocks together:
 
